@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 捕萊恩|B哥?</title>
+    <link>https://brian-hsu.github.io/tags/</link>
+    <description>Recent content in Tags on 捕萊恩|B哥?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 03 Jun 2021 19:22:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gohugo</title>
+      <link>https://brian-hsu.github.io/tags/gohugo/</link>
+      <pubDate>Thu, 03 Jun 2021 19:22:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/tags/gohugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shortcodes</title>
+      <link>https://brian-hsu.github.io/tags/shortcodes/</link>
+      <pubDate>Thu, 03 Jun 2021 19:22:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game</title>
+      <link>https://brian-hsu.github.io/tags/game/</link>
+      <pubDate>Thu, 03 Jun 2021 19:02:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://brian-hsu.github.io/tags/markdown/</link>
+      <pubDate>Thu, 03 Jun 2021 19:02:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://brian-hsu.github.io/tags/html/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://brian-hsu.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New</title>
+      <link>https://brian-hsu.github.io/tags/new/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://brian-hsu.github.io/tags/new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photos</title>
+      <link>https://brian-hsu.github.io/tags/photos/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://brian-hsu.github.io/tags/photos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://brian-hsu.github.io/tags/python/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://brian-hsu.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://brian-hsu.github.io/tags/react/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://brian-hsu.github.io/tags/react/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
