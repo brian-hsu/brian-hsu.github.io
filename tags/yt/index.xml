@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on 捕萊恩|B哥?</title>
-    <link>https://brian-hsu.github.io/blog/</link>
-    <description>Recent content in blog on 捕萊恩|B哥?</description>
+    <title>YT on 捕萊恩|B哥?</title>
+    <link>https://brian-hsu.github.io/tags/yt/</link>
+    <description>Recent content in YT on 捕萊恩|B哥?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://brian-hsu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>VScode 選取中的高亮背景色</title>
-      <link>https://brian-hsu.github.io/blog/my_share-004/</link>
-      <pubDate>Fri, 04 Jun 2021 22:40:00 +0800</pubDate>
-      
-      <guid>https://brian-hsu.github.io/blog/my_share-004/</guid>
-      <description>在 VScode 按下 F1 打上 &amp;gt;setting json
-加上下列內容
-&amp;#34;workbench.colorCustomizations&amp;#34;: { &amp;#34;editor.</description>
-    </item>
-    
+    <lastBuildDate>Fri, 04 Jun 2021 22:22:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/yt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Karen O - YO! MY SAINT</title>
       <link>https://brian-hsu.github.io/blog/my_share-003/</link>
@@ -26,28 +15,6 @@
       <guid>https://brian-hsu.github.io/blog/my_share-003/</guid>
       <description>倫·李·奧佐萊克（Karen Lee Orzolek），職業上稱為凱倫·歐（Karen O），是出生於韓國的美國歌手，詞曲作者，音樂家和唱片製作人。她是美國搖滾樂隊Yeah Yeah Yeahs的主唱。
 Don&amp;#39;t you tell another lie Don&amp;#39;t you tell another truth My heart, it isn&amp;#39;t bulletproof From visions of you Don&amp;#39;t you know the way I feel Can&amp;#39;t you read my mind Don&amp;#39;t you read between the lines For what&amp;#39;s real Forget&amp;#39;em, get&amp;#39;em, get&amp;#39;em I used to rule the streets I was young enough to know that There was something to believe in I&amp;#39;m tired of the lies they tell I&amp;#39;m trying to disguise myself The perfect crime that I&amp;#39;ll commit Is loving you despite all of it Forget&amp;#39;em, get&amp;#39;em, get&amp;#39;em I used to rule the streets I was young enough to know that There was something to believe in I&amp;#39;m tired of the lies they tell I&amp;#39;m trying to disguise myself The perfect crime that I&amp;#39;ll commit Is loving you despite all of it You&amp;#39;re my saint, you&amp;#39;re my saint You&amp;#39;re my saint, you&amp;#39;re my sensation You&amp;#39;re my saint, you&amp;#39;re my saint You&amp;#39;re my saint, you&amp;#39;re my sensation Set me free To live my life Whatever way I want to be Like smoke in a mirror I disappear Like smoke in a mirror I disappear Set me free To live my life Whatever way I want to be Like smoke in a mirror I disappear Like smoke in a mirror I disappear Don&amp;#39;t you know my eyes, my eyes They&amp;#39;ll see you only Don&amp;#39;t you know my eyes, my eyes They&amp;#39;ll see you blue Blue My one and only    </description>
-    </item>
-    
-    <item>
-      <title>gohugo shortcodes 使用</title>
-      <link>https://brian-hsu.github.io/blog/my_share-002/</link>
-      <pubDate>Thu, 03 Jun 2021 19:22:00 +0800</pubDate>
-      
-      <guid>https://brian-hsu.github.io/blog/my_share-002/</guid>
-      <description>使用 gohugo shortcodes 功能 gohugo shortcodes 介紹網頁
-格式
-{{&amp;lt; youtube [影片後面代碼] &amp;gt;}}</description>
-    </item>
-    
-    <item>
-      <title>Markdown 相關介紹</title>
-      <link>https://brian-hsu.github.io/blog/my_share-001/</link>
-      <pubDate>Thu, 03 Jun 2021 19:02:00 +0800</pubDate>
-      
-      <guid>https://brian-hsu.github.io/blog/my_share-001/</guid>
-      <description>語法: ~(代表 空格符號)
-空格代碼 &amp;ldquo;&amp;amp;nbsp;&amp;rdquo; 雙空格 &amp;ldquo;&amp;amp;ensp;&amp;rdquo; 四空格 &amp;ldquo;&amp;amp;emsp;&amp;rdquo;
-1.內文(初始文字)</description>
     </item>
     
   </channel>

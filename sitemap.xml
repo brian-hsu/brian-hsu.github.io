@@ -3,7 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://brian-hsu.github.io/categories/</loc>
-    <lastmod>2021-06-03T19:22:00+08:00</lastmod>
+    <lastmod>2021-06-04T22:40:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/tags/</loc>
+    <lastmod>2021-06-04T22:40:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/tags/vscode/</loc>
+    <lastmod>2021-06-04T22:40:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/blog/my_share-004/</loc>
+    <lastmod>2021-06-04T22:40:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/categories/%E5%BF%83%E5%BE%97%E8%88%87%E4%BB%8B%E7%B4%B9/</loc>
+    <lastmod>2021-06-04T22:40:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/</loc>
+    <lastmod>2021-06-04T22:40:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/blog/my_share-003/</loc>
+    <lastmod>2021-06-04T22:22:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/categories/music/</loc>
+    <lastmod>2021-06-04T22:22:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/tags/yt/</loc>
+    <lastmod>2021-06-04T22:22:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/tags/gohugo/</loc>
     <lastmod>2021-06-03T19:22:00+08:00</lastmod>
@@ -13,18 +37,6 @@
   </url><url>
     <loc>https://brian-hsu.github.io/tags/shortcodes/</loc>
     <lastmod>2021-06-03T19:22:00+08:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/tags/</loc>
-    <lastmod>2021-06-03T19:22:00+08:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/categories/%E5%BF%83%E5%BE%97%E8%88%87%E4%BB%8B%E7%B4%B9/</loc>
-    <lastmod>2021-06-03T19:22:00+08:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/</loc>
-    <lastmod>2021-06-03T19:22:00+08:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/tags/game/</loc>
-    <lastmod>2021-06-03T19:02:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/tags/markdown/</loc>
     <lastmod>2021-06-03T19:02:00+08:00</lastmod>
@@ -43,80 +55,5 @@
   </url><url>
     <loc>https://brian-hsu.github.io/search/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/categories/android-and-gaming/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/categories/go-language/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/blog/post-1/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/blog/post-10/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/blog/post-11/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/blog/post-12/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/blog/post-13/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/blog/post-2/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/blog/post-3/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/blog/post-4/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/blog/post-5/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/blog/post-6/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/blog/post-7/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/blog/post-8/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/blog/post-9/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/tags/html/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/categories/html/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/categories/html-css/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/tags/new/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/tags/photos/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/categories/programming-language/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/tags/python/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/categories/python/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/tags/react/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/categories/web-design/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
 </urlset>
