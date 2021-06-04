@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 捕萊恩|B哥?</title>
+    <title>Tags on 捕萊恩 | 職場人稱 B哥?</title>
     <link>https://brian-hsu.github.io/tags/</link>
-    <description>Recent content in Tags on 捕萊恩|B哥?</description>
+    <description>Recent content in Tags on 捕萊恩 | 職場人稱 B哥?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Fri, 04 Jun 2021 22:40:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PyCharm</title>
+      <link>https://brian-hsu.github.io/tags/pycharm/</link>
+      <pubDate>Fri, 04 Jun 2021 22:40:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/tags/pycharm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RobotFramework</title>
+      <link>https://brian-hsu.github.io/tags/robotframework/</link>
+      <pubDate>Fri, 04 Jun 2021 22:40:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/tags/robotframework/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>VScode</title>
       <link>https://brian-hsu.github.io/tags/vscode/</link>
