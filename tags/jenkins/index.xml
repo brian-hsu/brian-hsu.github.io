@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jenkins on 捕萊恩 | 職場人稱 B哥?</title>
+    <link>https://brian-hsu.github.io/tags/jenkins/</link>
+    <description>Recent content in jenkins on 捕萊恩 | 職場人稱 B哥?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 07 Jun 2021 15:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker 指令</title>
+      <link>https://brian-hsu.github.io/blog/my_share-012/</link>
+      <pubDate>Mon, 07 Jun 2021 15:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-012/</guid>
+      <description>列出docker container 全部資訊 docker container ls -a 刪除docker container 資料 docker container rm [CONTAINER ID] -d 進程 --restart always：如果 container 遇到例外的情況被 stop 掉，例如是重新開機，docker 會試著重新啟動此 container</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -8,6 +8,79 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://brian-hsu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Linux 常見壓縮與解壓縮指令</title>
+      <link>https://brian-hsu.github.io/blog/my_share-014/</link>
+      <pubDate>Mon, 07 Jun 2021 23:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-014/</guid>
+      <description>.tar
+打包： tar cvf FileName.tar DirName 解包： tar xvf FileName.tar .</description>
+    </item>
+    
+    <item>
+      <title>Docker Portainer</title>
+      <link>https://brian-hsu.github.io/blog/my_share-013/</link>
+      <pubDate>Mon, 07 Jun 2021 20:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-013/</guid>
+      <description>docker pull portainer/portainer docker run -d --restart always --name portainer -p 9000:9000 \ -v /var/run/docker.</description>
+    </item>
+    
+    <item>
+      <title>Docker 指令</title>
+      <link>https://brian-hsu.github.io/blog/my_share-012/</link>
+      <pubDate>Mon, 07 Jun 2021 15:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-012/</guid>
+      <description>列出docker container 全部資訊 docker container ls -a 刪除docker container 資料 docker container rm [CONTAINER ID] -d 進程 --restart always：如果 container 遇到例外的情況被 stop 掉，例如是重新開機，docker 會試著重新啟動此 container</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu install docker</title>
+      <link>https://brian-hsu.github.io/blog/my_share-011/</link>
+      <pubDate>Mon, 07 Jun 2021 12:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-011/</guid>
+      <description>ubuntu 體系的 docker 安裝為 apt-get install docker.io 安裝好可以查詢 docker 版本 docker --version 啟動 docker 服務 service docker start 拉下第一個 image docker pull hello-world 查看 是否有 image docker images 試著跑 這個 image docker run hello-world 成功會顯示如下 Hello from Docker!</description>
+    </item>
+    
+    <item>
+      <title>VBox 設定 轉發 port</title>
+      <link>https://brian-hsu.github.io/blog/my_share-009/</link>
+      <pubDate>Mon, 07 Jun 2021 12:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-009/</guid>
+      <description>我們知道VM是虛擬技術之一 所以呢，創建好的機器也是一個獨立的環境 設定好 forwarding，就可以和本機系統互通了，最常用的就是 SSH 應用囉! 進去 forwarding 如下 設定 [主機IP] 就是127.</description>
+    </item>
+    
+    <item>
+      <title>Vim 內部常用指令介紹</title>
+      <link>https://brian-hsu.github.io/blog/my_share-010/</link>
+      <pubDate>Mon, 07 Jun 2021 12:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-010/</guid>
+      <description>搜尋文字 /[你要尋找的文字]\c \c 是指 忽略大小寫 進入搜尋文字 尋找 下一個匹配 按 n 鍵 (小寫n) 進入搜尋文字 尋找 上一個匹配 按 N 鍵 (大寫N，也可以說是 shift + n ) 會這幾個步驟，搭配 google 設定 Linux，可以節省不少時間喔。 </description>
+    </item>
+    
+    <item>
+      <title>設定 Linux (Ubuntu) SSH</title>
+      <link>https://brian-hsu.github.io/blog/my_share-008/</link>
+      <pubDate>Mon, 07 Jun 2021 12:30:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-008/</guid>
+      <description># apt-get install ssh # apt-get install openssh-server 設定 ssh config # vim /etc/ssh/sshd_config Port 22 PasswordAuthentication yes PermitRootLogin yes # 是否開放 root 登入 重啟服務 /etc/init.</description>
+    </item>
+    
+    <item>
+      <title>基本 HTML 語法 &lt;TAG&gt;</title>
+      <link>https://brian-hsu.github.io/blog/my_share-007/</link>
+      <pubDate>Sun, 06 Jun 2021 18:30:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-007/</guid>
+      <description>HTML 文件之標題 &amp;lt;title&amp;gt; 本文內容 &amp;lt;body&amp;gt; 標題字 1 至 6 級 &amp;lt;h1&amp;gt; to &amp;lt;h6&amp;gt; 段落 &amp;lt;p&amp;gt; 換行 &amp;lt;br&amp;gt; 橫線 &amp;lt;hr&amp;gt; 註解 &amp;lt;!</description>
+    </item>
+    
+    <item>
       <title>PyCharm 調整字體大小</title>
       <link>https://brian-hsu.github.io/blog/my_share-006/</link>
       <pubDate>Fri, 04 Jun 2021 22:40:00 +0800</pubDate>

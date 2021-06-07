@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on 捕萊恩 | 職場人稱 B哥?</title>
+    <link>https://brian-hsu.github.io/tags/docker/</link>
+    <description>Recent content in docker on 捕萊恩 | 職場人稱 B哥?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 07 Jun 2021 12:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu install docker</title>
+      <link>https://brian-hsu.github.io/blog/my_share-011/</link>
+      <pubDate>Mon, 07 Jun 2021 12:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-011/</guid>
+      <description>ubuntu 體系的 docker 安裝為 apt-get install docker.io 安裝好可以查詢 docker 版本 docker --version 啟動 docker 服務 service docker start 拉下第一個 image docker pull hello-world 查看 是否有 image docker images 試著跑 這個 image docker run hello-world 成功會顯示如下 Hello from Docker!</description>
+    </item>
+    
+  </channel>
+</rss>

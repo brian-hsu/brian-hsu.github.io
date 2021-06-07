@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>捕萊恩 | 職場人稱 B哥?</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Docker 指令 (架設 jenkins 為例)">
+  <meta name="author" content="捕萊恩">
+  <meta name="generator" content="Hugo 0.83.1" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://brian-hsu.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://brian-hsu.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-198580009-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://brian-hsu.github.io"><img class="img-fluid"
+          src="https://brian-hsu.github.io/images/brian_sign.png" alt="捕萊恩 | 職場人稱 B哥?"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/brian-hsu"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/weiche-h-02071988/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://brian-hsu.github.io"><img class="img-fluid"
+            src="https://brian-hsu.github.io/images/brian_sign.png" alt="捕萊恩 | 職場人稱 B哥?"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://brian-hsu.github.io/about">About</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://brian-hsu.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        
+        <a href="/categories/docker"
+          class="text-primary">Docker</a>
+        
+        <h2>Docker 指令</h2>
+        <div class="mb-3 post-meta">
+          <span>By 捕萊恩</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>07 June 2021</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <h4 id="列出docker-container-全部資訊-docker-container-ls--a">列出docker container 全部資訊 <code>docker container ls -a</code></h4>
+<h4 id="刪除docker-container-資料-docker-container-rm-container-id">刪除docker container 資料 <code>docker container rm [CONTAINER ID]</code></h4>
+<h4 id="-d-進程">-d 進程</h4>
+<p><code>--restart always</code>：如果 container 遇到例外的情況被 stop 掉，例如是重新開機，docker 會試著重新啟動此 container</p>
+<p><code>--name=xxx</code>：設定 container 的 name 為 xxx</p>
+<p><code>-p</code>: 做 port 的mapping，container裡的port 8080 mapping 到 host 的8080 port</p>
+<p><code>docker rmi [IMAGE ID]</code> : 刪除 images 的 image</p>
+<p>如果想一次過將所有 container 停止及刪除, 執行以下指令:</p>
+<p><code>docker stop $(docker ps -a -q)</code></p>
+<p><code>docker rm $(docker ps -a -q)</code></p>
+<hr>
+<h4 id="jenkins">jenkins</h4>
+<h5 id="首先-建立資料夾-讓-jenkins-資料存放在-local---mkdir-docker_jenkins">首先 建立資料夾 讓 jenkins 資料存放在 local  # <code>mkdir ~/docker_jenkins</code></h5>
+<h5 id="避免出現權限問題-使用該指令更改---chown--r-10001000-docker_jenkins">避免出現權限問題 使用該指令更改  # <code>chown -R 1000:1000 ~/docker_jenkins</code></h5>
+<h5 id="pull-jenkins--docker-pull-jenkinsjenkinslts-jdk11">pull jenkins # <code>docker pull jenkins/jenkins:lts-jdk11</code></h5>
+<h5 id="docker-run">docker run</h5>
+<div class="highlight"><pre style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker run -d --restart=always -v <span style="color:#2aa198">\
+</span><span style="color:#2aa198"></span>/volume1/homes/docker_data/docker_jenkins/:/var/jenkins_home <span style="color:#2aa198">\
+</span><span style="color:#2aa198"></span>-p 18080:8080 -p 50000:50000 <span style="color:#2aa198">\
+</span><span style="color:#2aa198"></span>--name=jenkins jenkins/jenkins:2.289.1-lts-jdk11<span style="color:#2aa198">`</span>
+</code></pre></div><h5 id="-d--deamon"><code>-d</code> : deamon</h5>
+<h5 id="--restartalways-重新啟動時-run-container"><code>--restart=always</code> :重新啟動時 run container</h5>
+<h5 id="-v-volume1homesdocker_datadocker_jenkinsvarjenkins_home-local-資料夾與-container-資料夾作用"><code>-v /volume1/homes/docker_data/docker_jenkins/:/var/jenkins_home</code> :local 資料夾與 container 資料夾作用</h5>
+<h5 id="-p-180808080--local-port-18080-與-container-port-8080-作用"><code>-p 18080:8080</code> : local port 18080 與 container port 8080 作用</h5>
+<h5 id="--namejenkins--container-name"><code>--name=jenkins</code> : container name</h5>
+<h5 id="administrator-password-可以-cat-docker_jenkinssecretsinitialadminpassword">Administrator password 可以 <code>cat ~/docker_jenkins/secrets/initialAdminPassword</code></h5>
+<h5 id="貼上後-進入安裝-plugin-點選install-suggested-plugins">貼上後 進入安裝 plugin 點選[Install suggested plugins]。</h5>
+<h5 id="安裝完畢後-第一次執行會請你建立管理員這邊直接按skip-and-continue-as-admin跳過">安裝完畢後 第一次執行會請你建立管理員，這邊直接按[Skip and continue as admin]跳過。</h5>
+<h5 id="設定jenkins-url使用預設的httplocalhost8080即可點選save-and-finish">設定jenkins URL，使用預設的http://localhost:8080/即可，點選Save and Finish。</h5>
+<h5 id="點選start-using-jenkins">點選Start using Jenkins。</h5>
+<h5 id="接著就進入jenkins管理頁面首頁">接著就進入Jenkins管理頁面首頁。</h5>
+<h5 id="使用指令-docker-exec--it-jenkins-bash-進入jenkins-container的bash-shell介面">使用指令 <code>docker exec -it jenkins bash</code> 進入jenkins container的bash shell介面。</h5>
+<h5 id="進入-root-docker-exec--it--u-root-jenkins-binbash">進入 root <code>docker exec -it -u root jenkins /bin/bash</code></h5>
+<h5 id="在people---admin---configure頁面的password欄位可修改密碼">在People -&gt; admin -&gt; Configure頁面的Password欄位可修改密碼。</h5>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "brianhsu0702" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script>
+  var indexURL = "https://brian-hsu.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://brian-hsu.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/search/mark.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://brian-hsu.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

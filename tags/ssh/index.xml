@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SSH on 捕萊恩 | 職場人稱 B哥?</title>
+    <link>https://brian-hsu.github.io/tags/ssh/</link>
+    <description>Recent content in SSH on 捕萊恩 | 職場人稱 B哥?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 07 Jun 2021 12:30:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>設定 Linux (Ubuntu) SSH</title>
+      <link>https://brian-hsu.github.io/blog/my_share-008/</link>
+      <pubDate>Mon, 07 Jun 2021 12:30:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-008/</guid>
+      <description># apt-get install ssh # apt-get install openssh-server 設定 ssh config # vim /etc/ssh/sshd_config Port 22 PasswordAuthentication yes PermitRootLogin yes # 是否開放 root 登入 重啟服務 /etc/init.</description>
+    </item>
+    
+  </channel>
+</rss>

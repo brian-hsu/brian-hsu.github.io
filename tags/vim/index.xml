@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on 捕萊恩 | 職場人稱 B哥?</title>
+    <link>https://brian-hsu.github.io/tags/vim/</link>
+    <description>Recent content in Vim on 捕萊恩 | 職場人稱 B哥?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 07 Jun 2021 12:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim 內部常用指令介紹</title>
+      <link>https://brian-hsu.github.io/blog/my_share-010/</link>
+      <pubDate>Mon, 07 Jun 2021 12:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-010/</guid>
+      <description>搜尋文字 /[你要尋找的文字]\c \c 是指 忽略大小寫 進入搜尋文字 尋找 下一個匹配 按 n 鍵 (小寫n) 進入搜尋文字 尋找 上一個匹配 按 N 鍵 (大寫N，也可以說是 shift + n ) 會這幾個步驟，搭配 google 設定 Linux，可以節省不少時間喔。 </description>
+    </item>
+    
+  </channel>
+</rss>
