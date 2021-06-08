@@ -8,6 +8,44 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://brian-hsu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Docker Network</title>
+      <link>https://brian-hsu.github.io/blog/my_share-018/</link>
+      <pubDate>Wed, 09 Jun 2021 00:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-018/</guid>
+      <description>docker network 有三種模式 none, 打上 docker network ls 顯示如下: NETWORK ID NAME DRIVER SCOPE 430f7df300e4 bridge bridge local 9eec1e943774 host host local 3c5057c3a127 none null local 打上 docker network inspect none 顯示如下: [{&amp;quot;Name&amp;quot;: &amp;quot;none&amp;quot;,&amp;quot;Id&amp;quot;: &amp;quot;3c5057c3a127f6868eda780bdc7755ad57bd9187efca9452b38f254af676d8c7&amp;quot;,&amp;quot;Created&amp;quot;: &amp;quot;2021-06-08T08:03:14.</description>
+    </item>
+    
+    <item>
+      <title>Alpine Linux</title>
+      <link>https://brian-hsu.github.io/blog/my_share-017/</link>
+      <pubDate>Tue, 08 Jun 2021 16:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-017/</guid>
+      <description>WIKI 介紹如下  Alpine Linux是一個由社群開發的基於musl和BusyBox的Linux作業系統，該作業系統以安全為理念，面向x86路由器、防火牆、虛擬私人網路、IP電話盒及伺服器而設計。
+ package management 叫 apk add	# 添加 package del	# 刪除 package fix	# 修復或升級 package update	# 更新可用 package 的索引 info	# 印出 有關已安裝或可用 package 的信息 search	# 搜索 package 或描述 upgrade	# 升級當前已安裝的軟件 package cache	# 本地緩存 package 存儲庫的維護操作 version	# 比較已安裝和可用 package 之間的版本差異 index	# 從 package 列表中創建存儲庫索引 fetch	# 下載（但不安裝） package audit	# 列出原始 package 安裝狀態的文件系統的更改 verify	# 驗證 package 簽名 dot	# 為給定 package 創建GraphViz圖表描述 policy	# 顯示更新給定 package 的存儲庫，加上還提供 package 的存儲庫 stats	# 顯示統計信息，包括安裝和可用的 package 數，目錄和文件的數量等。 manifest	# 顯示給定 package 中包含的文件的校驗和 常用的 與 apt 一樣 先更新 apk update 列出 目前已經安裝的 package list: apk info 列出 目前已經安裝的 package list 加上版本與資訊 : apk info -vv 如果 想知道 哪個 binary 是 哪個 package : apk info --who-owns [path] apk info --who-owns /bin/sh## /bin/sh is owned by busybox-1.</description>
+    </item>
+    
+    <item>
+      <title>Windows WSL</title>
+      <link>https://brian-hsu.github.io/blog/my_share-016/</link>
+      <pubDate>Tue, 08 Jun 2021 11:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-016/</guid>
+      <description>WIKI 介紹如下  適用於Linux的Windows子系統（英語：Windows Subsystem for Linux，簡稱WSL）是一個為在Windows 10和Windows Server 2019上能夠原生執行Linux二進位可執行檔（ELF格式）的相容層。</description>
+    </item>
+    
+    <item>
+      <title>Trisquel Mini</title>
+      <link>https://brian-hsu.github.io/blog/my_share-015/</link>
+      <pubDate>Tue, 08 Jun 2021 10:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-015/</guid>
+      <description>WIKI 介紹如下  該計劃旨在建成一個完全由自由軟體構造而不含任何專有軟體及專有韌體，使用Linux-libre——一個清除所有非自由代碼（二進位blob）Linux核心的，與Ubuntu一樣友善易用的GNU/Linux作業系統。[3]Trisquel依賴於使用者的捐款。[4]它的標誌是一個藍色三曲枝圖。
+  Trisquel Mini是主線Trisquel的替代版本，用於上網本及古舊機器。它使用低資源需求的LXDE及輕量的GTK+、X Window System，以替代GNOME和Qt/KDE應用程式。</description>
+    </item>
+    
+    <item>
       <title>Linux 常見壓縮與解壓縮指令</title>
       <link>https://brian-hsu.github.io/blog/my_share-014/</link>
       <pubDate>Mon, 07 Jun 2021 23:41:00 +0800</pubDate>
@@ -23,7 +61,7 @@
       <pubDate>Mon, 07 Jun 2021 20:41:00 +0800</pubDate>
       
       <guid>https://brian-hsu.github.io/blog/my_share-013/</guid>
-      <description>docker pull portainer/portainer docker run -d --restart always --name portainer -p 9000:9000 \ -v /var/run/docker.</description>
+      <description>docker pull portainer/portainer-ce:linux-amd64-2.5.1-alpine 新版image repo 是 portainer-ce docker run -d --restart always --name portainer -p 9000:9000 \ -v /var/run/docker.</description>
     </item>
     
     <item>
@@ -32,7 +70,7 @@
       <pubDate>Mon, 07 Jun 2021 15:41:00 +0800</pubDate>
       
       <guid>https://brian-hsu.github.io/blog/my_share-012/</guid>
-      <description>列出docker container 全部資訊 docker container ls -a 刪除docker container 資料 docker container rm [CONTAINER ID] -d 進程 --restart always：如果 container 遇到例外的情況被 stop 掉，例如是重新開機，docker 會試著重新啟動此 container</description>
+      <description>docker image ls -a : 列出所有 docker image docker image rm [image ID] : 刪除 docker image 列出docker container 全部資訊 docker container ls -a 刪除docker container 資料 docker container rm [CONTAINER ID] -d 進程 --restart always：如果 container 遇到例外的情況被 stop 掉，例如是重新開機，docker 會試著重新啟動此 container</description>
     </item>
     
     <item>

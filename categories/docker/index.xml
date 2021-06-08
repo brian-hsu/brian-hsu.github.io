@@ -6,14 +6,23 @@
     <description>Recent content in Docker on 捕萊恩 | 職場人稱 B哥?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 07 Jun 2021 20:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jun 2021 00:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Network</title>
+      <link>https://brian-hsu.github.io/blog/my_share-018/</link>
+      <pubDate>Wed, 09 Jun 2021 00:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-018/</guid>
+      <description>docker network 有三種模式 none, 打上 docker network ls 顯示如下: NETWORK ID NAME DRIVER SCOPE 430f7df300e4 bridge bridge local 9eec1e943774 host host local 3c5057c3a127 none null local 打上 docker network inspect none 顯示如下: [{&amp;quot;Name&amp;quot;: &amp;quot;none&amp;quot;,&amp;quot;Id&amp;quot;: &amp;quot;3c5057c3a127f6868eda780bdc7755ad57bd9187efca9452b38f254af676d8c7&amp;quot;,&amp;quot;Created&amp;quot;: &amp;quot;2021-06-08T08:03:14.</description>
+    </item>
+    
     <item>
       <title>Docker Portainer</title>
       <link>https://brian-hsu.github.io/blog/my_share-013/</link>
       <pubDate>Mon, 07 Jun 2021 20:41:00 +0800</pubDate>
       
       <guid>https://brian-hsu.github.io/blog/my_share-013/</guid>
-      <description>docker pull portainer/portainer docker run -d --restart always --name portainer -p 9000:9000 \ -v /var/run/docker.</description>
+      <description>docker pull portainer/portainer-ce:linux-amd64-2.5.1-alpine 新版image repo 是 portainer-ce docker run -d --restart always --name portainer -p 9000:9000 \ -v /var/run/docker.</description>
     </item>
     
     <item>
@@ -22,7 +31,7 @@
       <pubDate>Mon, 07 Jun 2021 15:41:00 +0800</pubDate>
       
       <guid>https://brian-hsu.github.io/blog/my_share-012/</guid>
-      <description>列出docker container 全部資訊 docker container ls -a 刪除docker container 資料 docker container rm [CONTAINER ID] -d 進程 --restart always：如果 container 遇到例外的情況被 stop 掉，例如是重新開機，docker 會試著重新啟動此 container</description>
+      <description>docker image ls -a : 列出所有 docker image docker image rm [image ID] : 刪除 docker image 列出docker container 全部資訊 docker container ls -a 刪除docker container 資料 docker container rm [CONTAINER ID] -d 進程 --restart always：如果 container 遇到例外的情況被 stop 掉，例如是重新開機，docker 會試著重新啟動此 container</description>
     </item>
     
   </channel>

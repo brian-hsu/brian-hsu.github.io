@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alpine on 捕萊恩 | 職場人稱 B哥?</title>
+    <link>https://brian-hsu.github.io/tags/alpine/</link>
+    <description>Recent content in Alpine on 捕萊恩 | 職場人稱 B哥?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 08 Jun 2021 16:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/alpine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alpine Linux</title>
+      <link>https://brian-hsu.github.io/blog/my_share-017/</link>
+      <pubDate>Tue, 08 Jun 2021 16:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-017/</guid>
+      <description>WIKI 介紹如下  Alpine Linux是一個由社群開發的基於musl和BusyBox的Linux作業系統，該作業系統以安全為理念，面向x86路由器、防火牆、虛擬私人網路、IP電話盒及伺服器而設計。
+ package management 叫 apk add	# 添加 package del	# 刪除 package fix	# 修復或升級 package update	# 更新可用 package 的索引 info	# 印出 有關已安裝或可用 package 的信息 search	# 搜索 package 或描述 upgrade	# 升級當前已安裝的軟件 package cache	# 本地緩存 package 存儲庫的維護操作 version	# 比較已安裝和可用 package 之間的版本差異 index	# 從 package 列表中創建存儲庫索引 fetch	# 下載（但不安裝） package audit	# 列出原始 package 安裝狀態的文件系統的更改 verify	# 驗證 package 簽名 dot	# 為給定 package 創建GraphViz圖表描述 policy	# 顯示更新給定 package 的存儲庫，加上還提供 package 的存儲庫 stats	# 顯示統計信息，包括安裝和可用的 package 數，目錄和文件的數量等。 manifest	# 顯示給定 package 中包含的文件的校驗和 常用的 與 apt 一樣 先更新 apk update 列出 目前已經安裝的 package list: apk info 列出 目前已經安裝的 package list 加上版本與資訊 : apk info -vv 如果 想知道 哪個 binary 是 哪個 package : apk info --who-owns [path] apk info --who-owns /bin/sh## /bin/sh is owned by busybox-1.</description>
+    </item>
+    
+  </channel>
+</rss>

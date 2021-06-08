@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>捕萊恩 | 職場人稱 B哥?</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Docker Network 相關應用">
+  <meta name="author" content="捕萊恩">
+  <meta name="generator" content="Hugo 0.83.1" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://brian-hsu.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://brian-hsu.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-198580009-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://brian-hsu.github.io"><img class="img-fluid"
+          src="https://brian-hsu.github.io/images/brian_sign.png" alt="捕萊恩 | 職場人稱 B哥?"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/brian-hsu"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/weiche-h-02071988/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://brian-hsu.github.io"><img class="img-fluid"
+            src="https://brian-hsu.github.io/images/brian_sign.png" alt="捕萊恩 | 職場人稱 B哥?"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://brian-hsu.github.io/about">About</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://brian-hsu.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        
+        <a href="/categories/docker"
+          class="text-primary">Docker</a>
+        
+        <h2>Docker Network</h2>
+        <div class="mb-3 post-meta">
+          <span>By 捕萊恩</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>09 June 2021</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <h4 id="docker-network-有三種模式-none">docker network 有三種模式 none,</h4>
+<h4 id="打上-docker-network-ls">打上 <code>docker network ls</code></h4>
+<h4 id="顯示如下">顯示如下:</h4>
+<div class="highlight"><pre style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">NETWORK ID     NAME      DRIVER    SCOPE
+430f7df300e4   bridge    bridge    <span style="color:#cb4b16">local</span>
+9eec1e943774   host      host      <span style="color:#cb4b16">local</span>
+3c5057c3a127   none      null      <span style="color:#cb4b16">local</span>
+</code></pre></div><h4 id="打上-docker-network-inspect-none">打上 <code>docker network inspect none</code></h4>
+<h4 id="顯示如下-1">顯示如下:</h4>
+<pre><code class="language-josn" data-lang="josn">[
+    {
+        &quot;Name&quot;: &quot;none&quot;,
+        &quot;Id&quot;: &quot;3c5057c3a127f6868eda780bdc7755ad57bd9187efca9452b38f254af676d8c7&quot;,
+        &quot;Created&quot;: &quot;2021-06-08T08:03:14.1258993Z&quot;,
+        &quot;Scope&quot;: &quot;local&quot;,
+        &quot;Driver&quot;: &quot;null&quot;,
+        &quot;EnableIPv6&quot;: false,
+        &quot;IPAM&quot;: {
+            &quot;Driver&quot;: &quot;default&quot;,
+            &quot;Options&quot;: null,
+            &quot;Config&quot;: []
+        },
+        &quot;Internal&quot;: false,
+        &quot;Attachable&quot;: false,
+        &quot;Ingress&quot;: false,
+        &quot;ConfigFrom&quot;: {
+            &quot;Network&quot;: &quot;&quot;
+        },
+        &quot;ConfigOnly&quot;: false,
+        &quot;Containers&quot;: {
+            &quot;26ada483f1efa15667383bed0266cde0f533ef29b6a3a1046f0d325a639bd9c4&quot;: {
+                &quot;Name&quot;: &quot;epic_golick&quot;,
+                &quot;EndpointID&quot;: &quot;1790ba8d095db67f4ca7d5ca9a215195a102ee4fcee9cb6435144dd8cc7a4059&quot;,
+                &quot;MacAddress&quot;: &quot;&quot;,
+                &quot;IPv4Address&quot;: &quot;&quot;,
+                &quot;IPv6Address&quot;: &quot;&quot;
+            }
+        },
+        &quot;Options&quot;: {},
+        &quot;Labels&quot;: {}
+    }
+]
+</code></pre><h4 id="建立network-driver-docker-network-create---driver-bridge-my_bridge01">建立network driver <code>docker network create --driver bridge my_bridge01</code></h4>
+<h4 id="docker-network-ls-顯示如下"><code>docker network ls</code> 顯示如下:</h4>
+<div class="highlight"><pre style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">NETWORK ID     NAME          DRIVER    SCOPE
+430f7df300e4   bridge        bridge    <span style="color:#cb4b16">local</span>
+9eec1e943774   host          host      <span style="color:#cb4b16">local</span>
+dce4d1ab8734   my_bridge01   bridge    <span style="color:#cb4b16">local</span>
+3c5057c3a127   none          null      <span style="color:#cb4b16">local</span>
+</code></pre></div>
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "brianhsu0702" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script>
+  var indexURL = "https://brian-hsu.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://brian-hsu.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/search/mark.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://brian-hsu.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

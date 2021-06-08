@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>捕萊恩 | 職場人稱 B哥?</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="在docker image 最小的 Linux! Alpine">
+  <meta name="author" content="捕萊恩">
+  <meta name="generator" content="Hugo 0.83.1" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://brian-hsu.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://brian-hsu.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-198580009-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://brian-hsu.github.io"><img class="img-fluid"
+          src="https://brian-hsu.github.io/images/brian_sign.png" alt="捕萊恩 | 職場人稱 B哥?"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/brian-hsu"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/weiche-h-02071988/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://brian-hsu.github.io"><img class="img-fluid"
+            src="https://brian-hsu.github.io/images/brian_sign.png" alt="捕萊恩 | 職場人稱 B哥?"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://brian-hsu.github.io/about">About</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://brian-hsu.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        
+        <a href="/categories/linux"
+          class="text-primary">Linux</a>
+        
+        <h2>Alpine Linux</h2>
+        <div class="mb-3 post-meta">
+          <span>By 捕萊恩</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>08 June 2021</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <h4 id="wiki-介紹如下">WIKI 介紹如下</h4>
+<blockquote>
+<p>Alpine Linux是一個由社群開發的基於musl和BusyBox的Linux作業系統，該作業系統以安全為理念，面向x86路由器、防火牆、虛擬私人網路、IP電話盒及伺服器而設計。</p>
+</blockquote>
+<h4 id="package-management-叫-apk">package management 叫 apk</h4>
+<div class="highlight"><pre style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">add	<span style="color:#93a1a1;font-style:italic"># 添加 package</span>
+del	<span style="color:#93a1a1;font-style:italic"># 刪除 package</span>
+fix	<span style="color:#93a1a1;font-style:italic"># 修復或升級  package</span>
+update	<span style="color:#93a1a1;font-style:italic"># 更新可用 package 的索引</span>
+info	<span style="color:#93a1a1;font-style:italic"># 印出 有關已安裝或可用 package 的信息</span>
+search	<span style="color:#93a1a1;font-style:italic"># 搜索 package 或描述</span>
+upgrade	<span style="color:#93a1a1;font-style:italic"># 升級當前已安裝的軟件 package</span>
+cache	<span style="color:#93a1a1;font-style:italic"># 本地緩存 package 存儲庫的維護操作</span>
+version	<span style="color:#93a1a1;font-style:italic"># 比較已安裝和可用 package 之間的版本差異</span>
+index	<span style="color:#93a1a1;font-style:italic"># 從 package 列表中創建存儲庫索引</span>
+fetch	<span style="color:#93a1a1;font-style:italic"># 下載（但不安裝） package</span>
+audit	<span style="color:#93a1a1;font-style:italic"># 列出原始 package 安裝狀態的文件系統的更改</span>
+verify	<span style="color:#93a1a1;font-style:italic"># 驗證 package 簽名</span>
+dot	<span style="color:#93a1a1;font-style:italic"># 為給定 package 創建GraphViz圖表描述</span>
+policy	<span style="color:#93a1a1;font-style:italic"># 顯示更新給定 package 的存儲庫，加上還提供 package 的存儲庫</span>
+stats	<span style="color:#93a1a1;font-style:italic"># 顯示統計信息，包括安裝和可用的 package 數，目錄和文件的數量等。</span>
+manifest	<span style="color:#93a1a1;font-style:italic"># 顯示給定 package 中包含的文件的校驗和</span>
+</code></pre></div><h4 id="常用的-與-apt-一樣-先更新-apk-update">常用的 與 apt 一樣 先更新 <code>apk update</code></h4>
+<h4 id="列出-目前已經安裝的-package-list-apk-info">列出 目前已經安裝的 package list: <code>apk info</code></h4>
+<h4 id="列出-目前已經安裝的-package-list-加上版本與資訊--apk-info--vv">列出 目前已經安裝的 package list 加上版本與資訊 : <code>apk info -vv</code></h4>
+<h4 id="如果-想知道-哪個-binary-是-哪個-package--apk-info---who-owns-path">如果 想知道 哪個 binary 是 哪個 package : <code>apk info --who-owns [path]</code></h4>
+<pre><code>apk info --who-owns /bin/sh
+## /bin/sh is owned by busybox-1.31.1-r20
+</code></pre><h4 id="查詢-資訊--apk-search--v-package-name">查詢 資訊  <code>apk search -v [package name]</code></h4>
+<pre><code>/ # apk search -v 'python3'
+python3-tkinter-3.8.10-r0 - A graphical user interface for the Python
+python3-idle-3.8.10-r0 - IDE for Python3 using Tkinter
+python3-dev-3.8.10-r0 - A high-level scripting language (development files)
+boost-python3-1.72.0-r6 - Boost python3 shared library
+postgresql-plpython3-contrib-12.7-r0 - PL/Python 3 extension modules distributed with PostgreSQL
+python3-dbg-3.8.10-r0 - A high-level scripting language (debug symbols)
+python3-3.8.10-r0 - A high-level scripting language
+</code></pre><h4 id="安裝-package-並且不要暫存以及相關依賴--apk---no-cache--i-add-vim">安裝 package 並且不要暫存以及相關依賴 : <code>apk --no-cache -i add vim</code></h4>
+<h4 id="刪除-package--apk-del-package-name">刪除 package : <code>apk del [package name]</code></h4>
+<h4 id="搜尋-python3-pip--apk-search--v-pipgrep--i-python">搜尋 python3 pip : <code>apk search -v pip|grep -i python</code></h4>
+<h4 id="安裝-pip3---apk-add--i-py3-pip">安裝 pip3 : <code> apk add -i py3-pip</code></h4>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "brianhsu0702" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script>
+  var indexURL = "https://brian-hsu.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://brian-hsu.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/search/mark.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://brian-hsu.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

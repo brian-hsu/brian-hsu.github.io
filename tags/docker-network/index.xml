@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker Network on 捕萊恩 | 職場人稱 B哥?</title>
+    <link>https://brian-hsu.github.io/tags/docker-network/</link>
+    <description>Recent content in Docker Network on 捕萊恩 | 職場人稱 B哥?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 09 Jun 2021 00:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/docker-network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Network</title>
+      <link>https://brian-hsu.github.io/blog/my_share-018/</link>
+      <pubDate>Wed, 09 Jun 2021 00:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-018/</guid>
+      <description>docker network 有三種模式 none, 打上 docker network ls 顯示如下: NETWORK ID NAME DRIVER SCOPE 430f7df300e4 bridge bridge local 9eec1e943774 host host local 3c5057c3a127 none null local 打上 docker network inspect none 顯示如下: [{&amp;quot;Name&amp;quot;: &amp;quot;none&amp;quot;,&amp;quot;Id&amp;quot;: &amp;quot;3c5057c3a127f6868eda780bdc7755ad57bd9187efca9452b38f254af676d8c7&amp;quot;,&amp;quot;Created&amp;quot;: &amp;quot;2021-06-08T08:03:14.</description>
+    </item>
+    
+  </channel>
+</rss>
