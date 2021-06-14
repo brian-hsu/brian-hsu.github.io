@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>isinstance on 捕萊恩 | 職場人稱 B哥?</title>
+    <link>https://brian-hsu.github.io/tags/isinstance/</link>
+    <description>Recent content in isinstance on 捕萊恩 | 職場人稱 B哥?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 14 Jun 2021 23:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/isinstance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python 常用 函式 isinstance</title>
+      <link>https://brian-hsu.github.io/blog/my_share-019/</link>
+      <pubDate>Mon, 14 Jun 2021 23:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-019/</guid>
+      <description>在不知道這個函式之前,判斷變數為 int 就得自己寫定義 發現了 isinstance 這個函式後, 判斷變數值非常簡單 def it_isinstance(x): if isinstance(x, int): print(&amp;#34;{} is Int&amp;#34;.</description>
+    </item>
+    
+  </channel>
+</rss>

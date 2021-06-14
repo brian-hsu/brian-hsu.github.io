@@ -6,16 +6,7 @@
     <description>Recent content in Trisquel on 捕萊恩 | 職場人稱 B哥?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 08 Jun 2021 11:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/trisquel/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Windows WSL</title>
-      <link>https://brian-hsu.github.io/blog/my_share-016/</link>
-      <pubDate>Tue, 08 Jun 2021 11:41:00 +0800</pubDate>
-      
-      <guid>https://brian-hsu.github.io/blog/my_share-016/</guid>
-      <description>WIKI 介紹如下  適用於Linux的Windows子系統（英語：Windows Subsystem for Linux，簡稱WSL）是一個為在Windows 10和Windows Server 2019上能夠原生執行Linux二進位可執行檔（ELF格式）的相容層。</description>
-    </item>
-    
+    <lastBuildDate>Tue, 08 Jun 2021 10:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/trisquel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trisquel Mini</title>
       <link>https://brian-hsu.github.io/blog/my_share-015/</link>

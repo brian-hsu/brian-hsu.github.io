@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://brian-hsu.github.io/categories/</loc>
-    <lastmod>2021-06-09T00:41:00+08:00</lastmod>
+    <lastmod>2021-06-14T23:41:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/tags/isinstance/</loc>
+    <lastmod>2021-06-14T23:41:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/categories/python/</loc>
+    <lastmod>2021-06-14T23:41:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/blog/my_share-019/</loc>
+    <lastmod>2021-06-14T23:41:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/tags/</loc>
+    <lastmod>2021-06-14T23:41:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/</loc>
+    <lastmod>2021-06-14T23:41:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/categories/docker/</loc>
     <lastmod>2021-06-09T00:41:00+08:00</lastmod>
@@ -12,12 +27,6 @@
     <lastmod>2021-06-09T00:41:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/blog/my_share-018/</loc>
-    <lastmod>2021-06-09T00:41:00+08:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/tags/</loc>
-    <lastmod>2021-06-09T00:41:00+08:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/</loc>
     <lastmod>2021-06-09T00:41:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/tags/alpine/</loc>
@@ -29,11 +38,17 @@
     <loc>https://brian-hsu.github.io/categories/linux/</loc>
     <lastmod>2021-06-08T16:41:00+08:00</lastmod>
   </url><url>
-    <loc>https://brian-hsu.github.io/tags/trisquel/</loc>
+    <loc>https://brian-hsu.github.io/categories/windows/</loc>
     <lastmod>2021-06-08T11:41:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/blog/my_share-016/</loc>
     <lastmod>2021-06-08T11:41:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/tags/wsl/</loc>
+    <lastmod>2021-06-08T11:41:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/tags/trisquel/</loc>
+    <lastmod>2021-06-08T10:41:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/blog/my_share-015/</loc>
     <lastmod>2021-06-08T10:41:00+08:00</lastmod>
@@ -96,9 +111,6 @@
     <lastmod>2021-06-04T22:40:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/blog/my_share-006/</loc>
-    <lastmod>2021-06-04T22:40:00+08:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/categories/python/</loc>
     <lastmod>2021-06-04T22:40:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/tags/robotframework/</loc>

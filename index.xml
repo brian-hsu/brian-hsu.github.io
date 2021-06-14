@@ -6,7 +6,16 @@
     <description>Recent content on 捕萊恩 | 職場人稱 B哥?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 09 Jun 2021 00:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 23:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python 常用 函式 isinstance</title>
+      <link>https://brian-hsu.github.io/blog/my_share-019/</link>
+      <pubDate>Mon, 14 Jun 2021 23:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-019/</guid>
+      <description>在不知道這個函式之前,判斷變數為 int 就得自己寫定義 發現了 isinstance 這個函式後, 判斷變數值非常簡單 def it_isinstance(x): if isinstance(x, int): print(&amp;#34;{} is Int&amp;#34;.</description>
+    </item>
+    
     <item>
       <title>Docker Network</title>
       <link>https://brian-hsu.github.io/blog/my_share-018/</link>
@@ -119,7 +128,7 @@
     </item>
     
     <item>
-      <title>PyCharm 調整字體大小</title>
+      <title>PyCharm 設定</title>
       <link>https://brian-hsu.github.io/blog/my_share-006/</link>
       <pubDate>Fri, 04 Jun 2021 22:40:00 +0800</pubDate>
       
