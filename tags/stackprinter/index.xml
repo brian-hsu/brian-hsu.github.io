@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stackprinter on 捕萊恩 | 職場人稱 B哥?</title>
+    <link>https://brian-hsu.github.io/tags/stackprinter/</link>
+    <description>Recent content in stackprinter on 捕萊恩 | 職場人稱 B哥?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 16 Jun 2021 20:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/stackprinter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python trace 神器之一</title>
+      <link>https://brian-hsu.github.io/blog/my_share-020/</link>
+      <pubDate>Wed, 16 Jun 2021 20:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-020/</guid>
+      <description>遇到 Exception 但不知道哪邊或是 root cause 發現 stackprinter 真的是很棒 來看看範例 import stackprinter a = [10, 4, 3, 9, 22, &amp;#34;0&amp;#34;] try: b = [i for i in a if 100 % i == 0] except Exception as e: print(e) stackprinter.</description>
+    </item>
+    
+  </channel>
+</rss>

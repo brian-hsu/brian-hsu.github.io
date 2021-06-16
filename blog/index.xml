@@ -8,6 +8,24 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://brian-hsu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Python debug 神器之一</title>
+      <link>https://brian-hsu.github.io/blog/my_share-021/</link>
+      <pubDate>Wed, 16 Jun 2021 23:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-021/</guid>
+      <description>Never use print for debugging again 真的講得很好~ 新手最土炮的方法就是在問題之前 print 函式 有幸可以不再使用 print 真的是很幸福的事 來看看範例 import pysnooper @pysnooper.</description>
+    </item>
+    
+    <item>
+      <title>Python trace 神器之一</title>
+      <link>https://brian-hsu.github.io/blog/my_share-020/</link>
+      <pubDate>Wed, 16 Jun 2021 20:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-020/</guid>
+      <description>遇到 Exception 但不知道哪邊或是 root cause 發現 stackprinter 真的是很棒 來看看範例 import stackprinter a = [10, 4, 3, 9, 22, &amp;#34;0&amp;#34;] try: b = [i for i in a if 100 % i == 0] except Exception as e: print(e) stackprinter.</description>
+    </item>
+    
+    <item>
       <title>Python 常用 函式 isinstance</title>
       <link>https://brian-hsu.github.io/blog/my_share-019/</link>
       <pubDate>Mon, 14 Jun 2021 23:41:00 +0800</pubDate>
@@ -165,7 +183,7 @@
       
       <guid>https://brian-hsu.github.io/blog/my_share-003/</guid>
       <description>倫·李·奧佐萊克（Karen Lee Orzolek），職業上稱為凱倫·歐（Karen O），是出生於韓國的美國歌手，詞曲作者，音樂家和唱片製作人。她是美國搖滾樂隊Yeah Yeah Yeahs的主唱。
-Don&amp;#39;t you tell another lie Don&amp;#39;t you tell another truth My heart, it isn&amp;#39;t bulletproof From visions of you Don&amp;#39;t you know the way I feel Can&amp;#39;t you read my mind Don&amp;#39;t you read between the lines For what&amp;#39;s real Forget&amp;#39;em, get&amp;#39;em, get&amp;#39;em I used to rule the streets I was young enough to know that There was something to believe in I&amp;#39;m tired of the lies they tell I&amp;#39;m trying to disguise myself The perfect crime that I&amp;#39;ll commit Is loving you despite all of it Forget&amp;#39;em, get&amp;#39;em, get&amp;#39;em I used to rule the streets I was young enough to know that There was something to believe in I&amp;#39;m tired of the lies they tell I&amp;#39;m trying to disguise myself The perfect crime that I&amp;#39;ll commit Is loving you despite all of it You&amp;#39;re my saint, you&amp;#39;re my saint You&amp;#39;re my saint, you&amp;#39;re my sensation You&amp;#39;re my saint, you&amp;#39;re my saint You&amp;#39;re my saint, you&amp;#39;re my sensation Set me free To live my life Whatever way I want to be Like smoke in a mirror I disappear Like smoke in a mirror I disappear Set me free To live my life Whatever way I want to be Like smoke in a mirror I disappear Like smoke in a mirror I disappear Don&amp;#39;t you know my eyes, my eyes They&amp;#39;ll see you only Don&amp;#39;t you know my eyes, my eyes They&amp;#39;ll see you blue Blue My one and only    </description>
+Don&amp;#39;t you tell another lie Don&amp;#39;t you tell another truth My heart, it isn&amp;#39;t bulletproof From visions of you 你不要再說謊了 你不要再說實話了 我的心，它不是防彈的 從你的願景 Don&amp;#39;t you know the way I feel Can&amp;#39;t you read my mind Don&amp;#39;t you read between the lines For what&amp;#39;s real 你不知道我的感受嗎 你無法讀懂我的心思 不要在字裡行間閱讀 對於什麼是真實的 Forget&amp;#39;em, get&amp;#39;em, get&amp;#39;em I used to rule the streets I was young enough to know that There was something to believe in I&amp;#39;m tired of the lies they tell I&amp;#39;m trying to disguise myself The perfect crime that I&amp;#39;ll commit Is loving you despite all of it 忘了他們，抓住他們，抓住他們 我曾經統治過街道 我還年輕，知道 有一些值得相信的東西 我厭倦了他們說的謊言 我試著掩飾自己 我將犯下的完美罪行 是愛你，儘管這一切 Forget&amp;#39;em, get&amp;#39;em, get&amp;#39;em I used to rule the streets I was young enough to know that There was something to believe in I&amp;#39;m tired of the lies they tell I&amp;#39;m trying to disguise myself The perfect crime that I&amp;#39;ll commit Is loving you despite all of it 忘了他們，抓住他們，抓住他們 我曾經統治過街道 我還年輕，知道 有一些值得相信的東西 我厭倦了他們說的謊言 我試著掩飾自己 我將犯下的完美罪行 是愛你，儘管這一切 You&amp;#39;re my saint, you&amp;#39;re my saint You&amp;#39;re my saint, you&amp;#39;re my sensation You&amp;#39;re my saint, you&amp;#39;re my saint You&amp;#39;re my saint, you&amp;#39;re my sensation 你是我的聖人，你是我的聖人 你是我的聖人，你是我的感覺 你是我的聖人，你是我的聖人 你是我的聖人，你是我的感覺 Set me free To live my life Whatever way I want to be Like smoke in a mirror I disappear Like smoke in a mirror I disappear 有空來看我 過我的生活 無論哪種方式 我想成為 就像鏡子里的煙 我消失了 就像鏡子里的煙 我消失了 Set me free To live my life Whatever way I want to be Like smoke in a mirror I disappear Like smoke in a mirror I disappear 有空來看我 過我的生活 無論哪種方式 我想成為 就像鏡子里的煙 我消失了 就像鏡子里的煙 我消失了 Don&amp;#39;t you know my eyes, my eyes They&amp;#39;ll see you only 難道你不知道我的眼睛，我的眼睛 他們只會看到你 Don&amp;#39;t you know my eyes, my eyes They&amp;#39;ll see you blue 難道你不知道我的眼睛，我的眼睛 他們只會看到你 Blue My one and only 藍色 我唯一的一個    </description>
     </item>
     
     <item>

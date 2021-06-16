@@ -6,7 +6,25 @@
     <description>Recent content in Python on 捕萊恩 | 職場人稱 B哥?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 14 Jun 2021 23:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jun 2021 23:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python debug 神器之一</title>
+      <link>https://brian-hsu.github.io/blog/my_share-021/</link>
+      <pubDate>Wed, 16 Jun 2021 23:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-021/</guid>
+      <description>Never use print for debugging again 真的講得很好~ 新手最土炮的方法就是在問題之前 print 函式 有幸可以不再使用 print 真的是很幸福的事 來看看範例 import pysnooper @pysnooper.</description>
+    </item>
+    
+    <item>
+      <title>Python trace 神器之一</title>
+      <link>https://brian-hsu.github.io/blog/my_share-020/</link>
+      <pubDate>Wed, 16 Jun 2021 20:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-020/</guid>
+      <description>遇到 Exception 但不知道哪邊或是 root cause 發現 stackprinter 真的是很棒 來看看範例 import stackprinter a = [10, 4, 3, 9, 22, &amp;#34;0&amp;#34;] try: b = [i for i in a if 100 % i == 0] except Exception as e: print(e) stackprinter.</description>
+    </item>
+    
     <item>
       <title>Python 常用 函式 isinstance</title>
       <link>https://brian-hsu.github.io/blog/my_share-019/</link>
