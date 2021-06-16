@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>loguru on 捕萊恩 | 職場人稱 B哥?</title>
+    <link>https://brian-hsu.github.io/tags/loguru/</link>
+    <description>Recent content in loguru on 捕萊恩 | 職場人稱 B哥?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 17 Jun 2021 01:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/loguru/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>取代 python 的 logging</title>
+      <link>https://brian-hsu.github.io/blog/my_share-022/</link>
+      <pubDate>Thu, 17 Jun 2021 01:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-022/</guid>
+      <description>喜歡這款無腦操作的 神logging 並且無須變更就很美的 log 先看看效果 from loguru import logger as logur logur.</description>
+    </item>
+    
+  </channel>
+</rss>
