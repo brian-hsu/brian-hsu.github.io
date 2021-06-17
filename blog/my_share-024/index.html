@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>捕萊恩 | 職場人稱 B哥?</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="保存互動式的程式碼工具">
+  <meta name="author" content="捕萊恩">
+  <meta name="generator" content="Hugo 0.83.1" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://brian-hsu.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://brian-hsu.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://brian-hsu.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-198580009-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://brian-hsu.github.io"><img class="img-fluid"
+          src="https://brian-hsu.github.io/images/brian_sign.png" alt="捕萊恩 | 職場人稱 B哥?"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/brian-hsu"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/weiche-h-02071988/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://brian-hsu.github.io"><img class="img-fluid"
+            src="https://brian-hsu.github.io/images/brian_sign.png" alt="捕萊恩 | 職場人稱 B哥?"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://brian-hsu.github.io/about">About</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://brian-hsu.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        
+        <a href="/categories/python"
+          class="text-primary">Python</a>
+        
+        <h2>ipython 的 線上版 jupyter notebook</h2>
+        <div class="mb-3 post-meta">
+          <span>By 捕萊恩</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>17 June 2021</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <h4 id="以前-ipython-使用起來特別威">以前 ipython 使用起來特別威</h4>
+<h4 id="沒想到後來-jupyter-notebook-出來更是厲害">沒想到後來 jupyter notebook 出來更是厲害</h4>
+<h4 id="不過考量我是使用-conda-虛擬環境特別去建立一個環境給jupyter有點多餘">不過考量我是使用 conda 虛擬環境，特別去建立一個環境給jupyter有點多餘</h4>
+<h4 id="而且jupyter-notebook-是-online-模式的">而且jupyter notebook 是 online 模式的</h4>
+<h4 id="所以-docker-container-特別適合">所以 docker container 特別適合</h4>
+<h4 id="先來一段掛載-docker-container-指令吧-我的環境為-windows">先來一段掛載 docker container 指令吧~ (我的環境為 Windows)</h4>
+<div class="highlight"><pre style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#268bd2">docker</span> <span style="color:#268bd2">run</span> -<span style="color:#268bd2">-name</span> <span style="color:#268bd2">jupyter</span> \ 
+<span style="color:#268bd2">-v</span> <span style="color:#268bd2">C:</span>\<span style="color:#268bd2">docker_data</span>\<span style="color:#268bd2">jupyter</span>:/<span style="color:#268bd2">home</span>/<span style="color:#268bd2">jovyan</span>/<span style="color:#268bd2">work</span> \
+<span style="color:#268bd2">-d</span> -<span style="color:#268bd2">-restart</span>=<span style="color:#268bd2">always</span> <span style="color:#268bd2">-p</span> <span style="color:#268bd2">8888</span>:<span style="color:#268bd2">8888</span> \
+<span style="color:#268bd2">jupyter</span>/<span style="color:#cb4b16">datascience-notebook</span> \
+<span style="color:#268bd2">start</span>.<span style="color:#268bd2">sh</span> <span style="color:#268bd2">jupyter</span> <span style="color:#268bd2">notebook</span> -<span style="color:#268bd2">-NotebookApp</span>.<span style="color:#268bd2">token</span>=<span style="color:#2aa198">&#39;&#39;</span>
+</code></pre></div><h5 id="之後只要把-想要執行的資料放-cdocker_datajupyter-就可以在-http1270018888notebookswork-找到囉">之後只要把 想要執行的資料放 C:\docker_data\jupyter 就可以在 http://127.0.0.1:8888/notebooks/work/ 找到囉</h5>
+<h5 id="如果是在-jupyter-notebook-建立新檔案-就建立在-work-資料夾-依然可以去-cdocker_datajupyter-找到檔案">如果是在 jupyter notebook 建立新檔案 就建立在 work 資料夾, 依然可以去 C:\docker_data\jupyter 找到檔案</h5>
+<h5 id="jupyter-notebook-快捷鍵">jupyter notebook 快捷鍵</h5>
+<div class="highlight"><pre style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">命令模式 (按键 Esc 开启)
+Enter : 转入编辑模式
+Shift-Enter : 运行本单元，选中下个单元
+Ctrl-Enter : 运行本单元
+Alt-Enter : 运行本单元，在其下插入新单元
+Y : 单元转入代码状态
+M :单元转入markdown状态
+R : 单元转入raw状态
+1 : 设定 1 级标题
+2 : 设定 2 级标题
+3 : 设定 3 级标题
+4 : 设定 4 级标题
+5 : 设定 5 级标题
+6 : 设定 6 级标题
+Up : 选中上方单元
+K : 选中上方单元
+Down : 选中下方单元
+J : 选中下方单元
+Shift-K : 扩大选中上方单元
+Shift-J : 扩大选中下方单元
+A : 在上方插入新单元
+B : 在下方插入新单元
+X : 剪切选中的单元
+C : 复制选中的单元
+Shift-V : 粘贴到上方单元
+V : 粘贴到下方单元
+Z : 恢复删除的最后一个单元
+D,D : 删除选中的单元
+Shift-M : 合并选中的单元
+Ctrl-S : 文件存盘
+S : 文件存盘
+L : 转换行号
+O : 转换输出
+Shift-O : 转换输出滚动
+Esc : 关闭页面
+Q : 关闭页面
+H : 显示快捷键帮助
+I,I : 中断Notebook内核
+0,0 : 重启Notebook内核
+Shift : 忽略
+Shift-Space : 向上滚动
+Space : 向下滚动
+ 
+
+编辑模式 ( Enter 键启动)
+Tab : 代码补全或缩进
+Shift-Tab : 提示
+Ctrl-] : 缩进
+Ctrl-[ : 解除缩进
+Ctrl-A : 全选
+Ctrl-Z : 复原
+Ctrl-Shift-Z : 再做
+Ctrl-Y : 再做
+Ctrl-Home : 跳到单元开头
+Ctrl-Up : 跳到单元开头
+Ctrl-End : 跳到单元末尾
+Ctrl-Down : 跳到单元末尾
+Ctrl-Left : 跳到左边一个字首
+Ctrl-Right : 跳到右边一个字首
+Ctrl-Backspace : 删除前面一个字
+Ctrl-Delete : 删除后面一个字
+Esc : 进入命令模式
+Ctrl-M : 进入命令模式
+Shift-Enter : 运行本单元，选中下一单元
+Ctrl-Enter : 运行本单元
+Alt-Enter : 运行本单元，在下面插入一单元
+Ctrl-Shift-- : 分割单元
+Ctrl-Shift-Subtract : 分割单元
+Ctrl-S : 文件存盘
+Shift : 忽略
+Up : 光标上移或转入上一单元
+Down :光标下移或转入下一单元
+</code></pre></div>
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "brianhsu0702" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script>
+  var indexURL = "https://brian-hsu.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://brian-hsu.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/search/mark.js"></script>
+
+<script src="https://brian-hsu.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://brian-hsu.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

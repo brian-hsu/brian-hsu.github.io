@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jupyter on 捕萊恩 | 職場人稱 B哥?</title>
+    <link>https://brian-hsu.github.io/tags/jupyter/</link>
+    <description>Recent content in jupyter on 捕萊恩 | 職場人稱 B哥?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 17 Jun 2021 23:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ipython 的 線上版 jupyter notebook</title>
+      <link>https://brian-hsu.github.io/blog/my_share-024/</link>
+      <pubDate>Thu, 17 Jun 2021 23:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-024/</guid>
+      <description>以前 ipython 使用起來特別威 沒想到後來 jupyter notebook 出來更是厲害 不過考量我是使用 conda 虛擬環境，特別去建立一個環境給jupyter有點多餘 而且jupyter notebook 是 online 模式的 所以 docker container 特別適合 先來一段掛載 docker container 指令吧~ (我的環境為 Windows) docker run --name jupyter \ -v C:\docker_data\jupyter:/home/jovyan/work \ -d --restart=always -p 8888:8888 \ jupyter/datascience-notebook \ start.</description>
+    </item>
+    
+  </channel>
+</rss>

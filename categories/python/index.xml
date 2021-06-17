@@ -6,7 +6,25 @@
     <description>Recent content in Python on 捕萊恩 | 職場人稱 B哥?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 17 Jun 2021 01:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jun 2021 23:41:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ipython 的 線上版 jupyter notebook</title>
+      <link>https://brian-hsu.github.io/blog/my_share-024/</link>
+      <pubDate>Thu, 17 Jun 2021 23:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-024/</guid>
+      <description>以前 ipython 使用起來特別威 沒想到後來 jupyter notebook 出來更是厲害 不過考量我是使用 conda 虛擬環境，特別去建立一個環境給jupyter有點多餘 而且jupyter notebook 是 online 模式的 所以 docker container 特別適合 先來一段掛載 docker container 指令吧~ (我的環境為 Windows) docker run --name jupyter \ -v C:\docker_data\jupyter:/home/jovyan/work \ -d --restart=always -p 8888:8888 \ jupyter/datascience-notebook \ start.</description>
+    </item>
+    
+    <item>
+      <title>python 計算 執行時間</title>
+      <link>https://brian-hsu.github.io/blog/my_share-023/</link>
+      <pubDate>Thu, 17 Jun 2021 12:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-023/</guid>
+      <description>有時候用秒數計算執行時間 測試資料不夠龐大的情況會使結果變成負值 這時候使用奈秒來看會比較快一些 1秒=1000000000 (ns), 1(ns) =1／1000000000(s)； 來看看 exsample (比較 deque 與 list 的 append 時間花費) from collections import deque import time d = deque(range(10000000)) l = list(range(10000000)) t1 = time.</description>
+    </item>
+    
     <item>
       <title>取代 python 的 logging</title>
       <link>https://brian-hsu.github.io/blog/my_share-022/</link>
