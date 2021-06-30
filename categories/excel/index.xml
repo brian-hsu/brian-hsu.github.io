@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel on 捕萊恩 | 職場人稱 B哥?</title>
+    <link>https://brian-hsu.github.io/categories/excel/</link>
+    <description>Recent content in Excel on 捕萊恩 | 職場人稱 B哥?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 30 Jun 2021 22:50:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/categories/excel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Excel 合併文字與連結</title>
+      <link>https://brian-hsu.github.io/blog/my_share-028/</link>
+      <pubDate>Wed, 30 Jun 2021 22:50:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-028/</guid>
+      <description>假設只有一欄文字連結 而想要直接點擊後 使用瀏覽器去導覽 excel 必須 在點選後(點兩下該儲存格) 才會顯示 link 模式 當你有上百筆這樣的情況會很麻煩 (這個情況會是用CSV轉 xls 很常見的) 先看簡單的案例 我們把 欄位 A 和 B 合併 到C 並以 link 模式顯示 在C欄位 加入函式 =HYPERLINK(B1,A1) 完成!</description>
+    </item>
+    
+    <item>
+      <title>Excel 帶入CSV (unicode)</title>
+      <link>https://brian-hsu.github.io/blog/my_share-027/</link>
+      <pubDate>Wed, 30 Jun 2021 22:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-027/</guid>
+      <description>有時候用程式寫出來的 CSV檔 順手點兩下使用 excel 打開 打開後看到亂碼 就秒關了 所以如果想用 excel 做一些手動篩選資料的處理 就必須麻煩一些 第一步 新增 excel 空白檔案 然後打開空白檔案 資料 =&amp;gt; 從文字/CSV 選擇 CSV 檔後 會顯示視窗 在 檔案原點 點開 選擇 65001 然後載入 完成!</description>
+    </item>
+    
+    <item>
+      <title>Excel 重複標記與刪除</title>
+      <link>https://brian-hsu.github.io/blog/my_share-026/</link>
+      <pubDate>Wed, 30 Jun 2021 21:41:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-026/</guid>
+      <description>假設有很多資料但是要篩選重複就顯得非常麻煩 Excel 可以幫忙標記並且可以刪除重複 假設我們有一張表 如下 選取全部的欄位 (常用 =&amp;gt; 條件式格式設定 =&amp;gt; 醒目提示儲存格規則 =&amp;gt; 重複的值) 案下確定 會看到紅色標記重複項目 如果要刪除重複 (限 直向欄,橫向列無法使用此方式) 一樣選取全部的欄位 (資料 =&amp;gt; 移除重複項) 這時候如果選擇 欄位三 將會顯示 沒有找到重複值 那我們選擇 欄位一 看看結果 OK 成功 </description>
+    </item>
+    
+  </channel>
+</rss>
