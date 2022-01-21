@@ -8,6 +8,24 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://brian-hsu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Dominic Lewis - I Will Survive</title>
+      <link>https://brian-hsu.github.io/blog/my_share-030/</link>
+      <pubDate>Fri, 21 Jan 2022 18:20:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-030/</guid>
+      <description>在電影&amp;quot;阿達一族2&amp;quot; 聽到管家彈鋼琴唱了歌，真的很精艷! 2022 開頭就感覺到無力? 演奏吧~ [Intro] At first I was afraid, I was petrified Kept thinkin&amp;#39; I could never live without you by my side But then I spent so many nights thinkin&amp;#39; how you did me wrong And I grew strong, and I learned how to get along [Verse 1] And so you&amp;#39;re back, from outer space I just walked in to find you here with that sad look upon your face I should have changed that stupid lock I should have made you leave your key If I&amp;#39;d have known for just one second you&amp;#39;d be back to bother me [Pre-Chorus] Go on now, go, walk out the door Just turn around now, &amp;#39;cause you&amp;#39;re not welcome anymore Weren&amp;#39;t you thе one who tried to hurt me with goodbyе?</description>
+    </item>
+    
+    <item>
+      <title>Conda 常用指令</title>
+      <link>https://brian-hsu.github.io/blog/my_share-029/</link>
+      <pubDate>Fri, 21 Jan 2022 18:19:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-029/</guid>
+      <description>初始化 (執行後重啟終端機) conda init查看目前環境 conda env list 建立新環境 (可以指定python版本) conda create --name myenv python=3.</description>
+    </item>
+    
+    <item>
       <title>Excel 合併文字與連結</title>
       <link>https://brian-hsu.github.io/blog/my_share-028/</link>
       <pubDate>Wed, 30 Jun 2021 22:50:00 +0800</pubDate>

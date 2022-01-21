@@ -3,15 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://brian-hsu.github.io/categories/</loc>
-    <lastmod>2021-06-30T22:50:00+08:00</lastmod>
+    <lastmod>2022-01-21T18:20:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/blog/my_share-030/</loc>
+    <lastmod>2022-01-21T18:20:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/categories/music/</loc>
+    <lastmod>2022-01-21T18:20:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/tags/</loc>
+    <lastmod>2022-01-21T18:20:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/tags/yt/</loc>
+    <lastmod>2022-01-21T18:20:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/</loc>
+    <lastmod>2022-01-21T18:20:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/blog/my_share-029/</loc>
+    <lastmod>2022-01-21T18:19:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/tags/env/</loc>
+    <lastmod>2022-01-21T18:19:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/categories/python/</loc>
+    <lastmod>2022-01-21T18:19:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/categories/excel/</loc>
     <lastmod>2021-06-30T22:50:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/blog/my_share-028/</loc>
-    <lastmod>2021-06-30T22:50:00+08:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/</loc>
     <lastmod>2021-06-30T22:50:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/blog/my_share-027/</loc>
@@ -24,12 +45,6 @@
     <lastmod>2021-06-17T23:41:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/tags/jupyter/</loc>
-    <lastmod>2021-06-17T23:41:00+08:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/categories/python/</loc>
-    <lastmod>2021-06-17T23:41:00+08:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/tags/</loc>
     <lastmod>2021-06-17T23:41:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/tags/perf_counter_ns/</loc>
@@ -168,12 +183,6 @@
     <lastmod>2021-06-04T22:40:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/blog/my_share-003/</loc>
-    <lastmod>2021-06-04T22:22:00+08:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/categories/music/</loc>
-    <lastmod>2021-06-04T22:22:00+08:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/tags/yt/</loc>
     <lastmod>2021-06-04T22:22:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/categories/gohugo/</loc>
