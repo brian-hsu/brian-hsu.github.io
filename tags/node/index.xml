@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>node on 捕萊恩 | 職場人稱 B哥?</title>
+    <link>https://brian-hsu.github.io/tags/node/</link>
+    <description>Recent content in node on 捕萊恩 | 職場人稱 B哥?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 22 Jan 2022 16:19:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/node/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacOS node版本管理 - n</title>
+      <link>https://brian-hsu.github.io/blog/my_share-031/</link>
+      <pubDate>Sat, 22 Jan 2022 16:19:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-031/</guid>
+      <description>安裝吧 brew install n 安裝最新版本 n lastest 安裝最新穩定版(超棒) n stable 直接一個 n 來切換版本(su權限要給) sudo n 用好node 當然是給 npm 來個最新版本更新 npm install -g npm@latest </description>
+    </item>
+    
+  </channel>
+</rss>

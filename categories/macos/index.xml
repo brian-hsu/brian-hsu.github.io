@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MacOS on 捕萊恩 | 職場人稱 B哥?</title>
+    <link>https://brian-hsu.github.io/categories/macos/</link>
+    <description>Recent content in MacOS on 捕萊恩 | 職場人稱 B哥?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 23 Jan 2022 23:18:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/categories/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>appium - 環境 設定 (Carthage)</title>
+      <link>https://brian-hsu.github.io/blog/my_share-036/</link>
+      <pubDate>Sun, 23 Jan 2022 23:18:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-036/</guid>
+      <description>紀錄 appium 在 mac 的環境需要 首先是 appium-doctor 再來就是 設置 JAVA_HOME 然後就是 設置 ANDROID_HOME 還有 設置 xcode cmd 這邊特別紀錄 Carthage 這個套件 .</description>
+    </item>
+    
+    <item>
+      <title>Xcode - 環境 設定</title>
+      <link>https://brian-hsu.github.io/blog/my_share-035/</link>
+      <pubDate>Sun, 23 Jan 2022 18:18:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-035/</guid>
+      <description>打開 Xcode Preferences &amp;gt; Locations Command Line Tools 請選定 Xcode 版本 ** 安裝 xcversion gem install xcode-install 提供apple ID export XCODE_INSTALL_USER=&amp;#34;name@example.</description>
+    </item>
+    
+    <item>
+      <title>環境變數 - ANDROID_HOME</title>
+      <link>https://brian-hsu.github.io/blog/my_share-034/</link>
+      <pubDate>Sun, 23 Jan 2022 18:18:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-034/</guid>
+      <description>創建或編輯 vim ~/.zprofile # zsh vim ~/.bash_profile # bash # 貼上以下 export PATH export ANDROID_HOME={你的android studio - sdk path} export PATH=${PATH}:${ANDROID_HOME}/tools export PATH=${PATH}:${ANDROID_HOME}/platforms-tools export PATH=${PATH}:${ANDROID_HOME}/build-tools 完工, termenal resession </description>
+    </item>
+    
+    <item>
+      <title>Java 管理套件 - jenv</title>
+      <link>https://brian-hsu.github.io/blog/my_share-033/</link>
+      <pubDate>Sun, 23 Jan 2022 13:19:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-033/</guid>
+      <description>安裝 jenv brew install jenv 設置 shell (bash) echo &amp;#39;export PATH=&amp;#34;$HOME/.</description>
+    </item>
+    
+    <item>
+      <title>MacOS - 截圖</title>
+      <link>https://brian-hsu.github.io/blog/my_share-032/</link>
+      <pubDate>Sat, 22 Jan 2022 18:19:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-032/</guid>
+      <description>擷取全螢幕 Command + Shift + 3 擷取指定區域 Command + Shift + 4 擷取軟體視窗 Command + Shift + 4 接著再按 空白鍵 </description>
+    </item>
+    
+    <item>
+      <title>MacOS node版本管理 - n</title>
+      <link>https://brian-hsu.github.io/blog/my_share-031/</link>
+      <pubDate>Sat, 22 Jan 2022 16:19:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-031/</guid>
+      <description>安裝吧 brew install n 安裝最新版本 n lastest 安裝最新穩定版(超棒) n stable 直接一個 n 來切換版本(su權限要給) sudo n 用好node 當然是給 npm 來個最新版本更新 npm install -g npm@latest </description>
+    </item>
+    
+  </channel>
+</rss>
