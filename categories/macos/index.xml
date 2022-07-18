@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MacOS on 捕萊恩 | 職場人稱 B哥?</title>
+    <title>MacOS on 布萊恩 | QA job | Testing</title>
     <link>https://brian-hsu.github.io/categories/macos/</link>
-    <description>Recent content in MacOS on 捕萊恩 | 職場人稱 B哥?</description>
+    <description>Recent content in MacOS on 布萊恩 | QA job | Testing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sun, 23 Jan 2022 23:18:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/categories/macos/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <pubDate>Sun, 23 Jan 2022 23:18:00 +0800</pubDate>
       
       <guid>https://brian-hsu.github.io/blog/my_share-036/</guid>
-      <description>紀錄 appium 在 mac 的環境需要 首先是 appium-doctor 再來就是 設置 JAVA_HOME 然後就是 設置 ANDROID_HOME 還有 設置 xcode cmd 這邊特別紀錄 Carthage 這個套件 .</description>
+      <description>紀錄 appium 在 mac 的環境需要 首先是 appium-doctor 再來就是 設置 JAVA_HOME 然後就是 設置 ANDROID_HOME (adb 無法用) 請加入 ~/.</description>
     </item>
     
     <item>
