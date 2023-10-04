@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ChatGPT on 布萊恩 | QA job | Testing</title>
-    <link>https://brian-hsu.github.io/tags/chatgpt/</link>
-    <description>Recent content in ChatGPT on 布萊恩 | QA job | Testing</description>
+    <title>Prompt on 布萊恩 | QA job | Testing</title>
+    <link>https://brian-hsu.github.io/tags/prompt/</link>
+    <description>Recent content in Prompt on 布萊恩 | QA job | Testing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 04 Oct 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Oct 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://brian-hsu.github.io/tags/prompt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>用chatGPT翻譯英文吧</title>
       <link>https://brian-hsu.github.io/blog/my_share-039/</link>
@@ -15,16 +15,6 @@
       <guid>https://brian-hsu.github.io/blog/my_share-039/</guid>
       <description>這年頭翻譯沒有再丟 google 翻譯了 詠唱吧 任何 翻譯 中文 : &amp;ldquo;我希望你充當一名中文譯者，專門將我提供的任何語言的單字、語句或段落翻譯成修正且升級的繁體中文（台灣）版本。我不需要任何額外的解釋或背景資訊，只需專注於翻譯工作本身。請確保你的翻譯是準確、簡單、易讀和易理解的，同時也要保持原始意思不變。我對你的翻譯技巧有高度的信任，並期待你能提供最高品質的翻譯服務。請注意，我只希望收到更正、改進後的繁體中文（台灣）內容，不需要其他多餘的信息。這樣可以讓我更有效地使用你的翻譯服務，並確保我獲得最佳的結果。不論我接下來提供的是哪種語言，你都只需將其翻譯成繁體中文（台灣）就好。我非常重視你的專業建議，並期待能從你那裡獲得最有效的翻譯服務。&amp;rdquo;
 中文 翻譯 英文 : &amp;ldquo;我希望你充當一名中文翻譯英文的專家。在接下來的對話中，我會提供中文的字、語句或段落，這些內容可能會夾帶一些英文單字或專有英文詞語。你的任務是將這些中文內容翻譯成修正和升級後的英文版本。我不需要你提供任何解釋或背景資訊，只需專注於翻譯本身。請確保你的翻譯是準確和專業的，並遵循英語的語法和用詞規範。我對你的翻譯技巧有高度的信任，並期待你能提供最高品質的翻譯服務。請注意，我只希望收到更正、改進後的英文內容，不需要其他多餘的信息。這樣可以讓我更有效地使用你的翻譯服務，並確保我獲得最佳的結果。&amp;rdquo;</description>
-    </item>
-    
-    <item>
-      <title>詠唱AI,省下你的爬文時間</title>
-      <link>https://brian-hsu.github.io/blog/my_share-038/</link>
-      <pubDate>Tue, 03 Oct 2023 01:00:00 +0800</pubDate>
-      
-      <guid>https://brian-hsu.github.io/blog/my_share-038/</guid>
-      <description>時間很快的, AI在2022年底問世 雖然又快到年底了, 其實也還沒到甚麼&amp;quot;工作被取代&amp;quot;. 不過與其擔心, 不如就加入吧!
-詠唱吧 給一個幫你生成prompt 的提示, 給你提示的提示? 是!</description>
     </item>
     
   </channel>

@@ -2,22 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://brian-hsu.github.io/tags/ai/</loc>
-    <lastmod>2022-09-30T23:18:00+08:00</lastmod>
-  </url><url>
     <loc>https://brian-hsu.github.io/categories/</loc>
-    <lastmod>2022-09-30T23:18:00+08:00</lastmod>
+    <lastmod>2023-10-04T17:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/tags/markdown/</loc>
+    <lastmod>2023-10-04T17:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/blog/my_share-041/</loc>
+    <lastmod>2023-10-04T17:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/tags/</loc>
+    <lastmod>2023-10-04T17:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/</loc>
+    <lastmod>2023-10-04T17:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/categories/%E5%BF%83%E5%BE%97%E8%88%87%E4%BB%8B%E7%B4%B9/</loc>
+    <lastmod>2023-10-04T17:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brian-hsu.github.io/blog/my_share-040/</loc>
+    <lastmod>2023-10-04T17:00:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/tags/chatgpt/</loc>
     <lastmod>2022-09-30T23:18:00+08:00</lastmod>
   </url><url>
-    <loc>https://brian-hsu.github.io/tags/</loc>
+    <loc>https://brian-hsu.github.io/tags/prompt/</loc>
     <lastmod>2022-09-30T23:18:00+08:00</lastmod>
   </url><url>
-    <loc>https://brian-hsu.github.io/</loc>
+    <loc>https://brian-hsu.github.io/blog/my_share-039/</loc>
     <lastmod>2022-09-30T23:18:00+08:00</lastmod>
   </url><url>
-    <loc>https://brian-hsu.github.io/categories/%E5%BF%83%E5%BE%97%E8%88%87%E4%BB%8B%E7%B4%B9/</loc>
+    <loc>https://brian-hsu.github.io/tags/ai/</loc>
     <lastmod>2022-09-30T23:18:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/blog/my_share-038/</loc>
@@ -229,9 +244,6 @@
   </url><url>
     <loc>https://brian-hsu.github.io/tags/shortcodes/</loc>
     <lastmod>2021-06-03T19:22:00+08:00</lastmod>
-  </url><url>
-    <loc>https://brian-hsu.github.io/tags/markdown/</loc>
-    <lastmod>2021-06-03T19:02:00+08:00</lastmod>
   </url><url>
     <loc>https://brian-hsu.github.io/blog/my_share-001/</loc>
     <lastmod>2021-06-03T19:02:00+08:00</lastmod>

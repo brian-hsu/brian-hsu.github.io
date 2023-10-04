@@ -8,6 +8,37 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://brian-hsu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>markdown 段落使用</title>
+      <link>https://brian-hsu.github.io/blog/my_share-041/</link>
+      <pubDate>Wed, 04 Oct 2023 17:30:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-041/</guid>
+      <description>markdown 段落 來一段歷史
+ 手動斷行 可以使用   字段最後加上兩個空白
+ 第一個將台灣納入中國版圖的中國統治者是明朝的朱元璋。在明朝時期，台灣被稱為「福爾摩沙」（Fú&amp;rsquo;ěrmóshā）或「福爾摩沙臺」（Fú&amp;rsquo;ěrmóshā Tái）， 這是一個葡萄牙詞語的音譯，最早出現在明朝的地理文獻中。</description>
+    </item>
+    
+    <item>
+      <title>markdown 圖片使用</title>
+      <link>https://brian-hsu.github.io/blog/my_share-040/</link>
+      <pubDate>Wed, 04 Oct 2023 17:00:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-040/</guid>
+      <description>圖片  圖片庫網站 https://unsplash.com/
+ 內嵌式 使用定義代號  格式: [代號]:網址 &amp;ldquo;敘述(不顯示)&amp;rdquo; 呼叫: !</description>
+    </item>
+    
+    <item>
+      <title>用chatGPT翻譯英文吧</title>
+      <link>https://brian-hsu.github.io/blog/my_share-039/</link>
+      <pubDate>Wed, 04 Oct 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-039/</guid>
+      <description>這年頭翻譯沒有再丟 google 翻譯了 詠唱吧 任何 翻譯 中文 : &amp;ldquo;我希望你充當一名中文譯者，專門將我提供的任何語言的單字、語句或段落翻譯成修正且升級的繁體中文（台灣）版本。我不需要任何額外的解釋或背景資訊，只需專注於翻譯工作本身。請確保你的翻譯是準確、簡單、易讀和易理解的，同時也要保持原始意思不變。我對你的翻譯技巧有高度的信任，並期待你能提供最高品質的翻譯服務。請注意，我只希望收到更正、改進後的繁體中文（台灣）內容，不需要其他多餘的信息。這樣可以讓我更有效地使用你的翻譯服務，並確保我獲得最佳的結果。不論我接下來提供的是哪種語言，你都只需將其翻譯成繁體中文（台灣）就好。我非常重視你的專業建議，並期待能從你那裡獲得最有效的翻譯服務。&amp;rdquo;
+中文 翻譯 英文 : &amp;ldquo;我希望你充當一名中文翻譯英文的專家。在接下來的對話中，我會提供中文的字、語句或段落，這些內容可能會夾帶一些英文單字或專有英文詞語。你的任務是將這些中文內容翻譯成修正和升級後的英文版本。我不需要你提供任何解釋或背景資訊，只需專注於翻譯本身。請確保你的翻譯是準確和專業的，並遵循英語的語法和用詞規範。我對你的翻譯技巧有高度的信任，並期待你能提供最高品質的翻譯服務。請注意，我只希望收到更正、改進後的英文內容，不需要其他多餘的信息。這樣可以讓我更有效地使用你的翻譯服務，並確保我獲得最佳的結果。&amp;rdquo;</description>
+    </item>
+    
+    <item>
       <title>詠唱AI,省下你的爬文時間</title>
       <link>https://brian-hsu.github.io/blog/my_share-038/</link>
       <pubDate>Tue, 03 Oct 2023 01:00:00 +0800</pubDate>
