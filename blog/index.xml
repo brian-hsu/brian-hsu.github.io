@@ -8,6 +8,17 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://brian-hsu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>markdown 連結使用</title>
+      <link>https://brian-hsu.github.io/blog/my_share-042/</link>
+      <pubDate>Fri, 06 Oct 2023 11:00:00 +0800</pubDate>
+      
+      <guid>https://brian-hsu.github.io/blog/my_share-042/</guid>
+      <description>連結  格式: [顯示文字](網址)
+ google 的 連結
+微軟的 Bing</description>
+    </item>
+    
+    <item>
       <title>markdown 段落使用</title>
       <link>https://brian-hsu.github.io/blog/my_share-041/</link>
       <pubDate>Wed, 04 Oct 2023 17:30:00 +0800</pubDate>
